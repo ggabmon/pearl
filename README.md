@@ -1,4 +1,32 @@
-# pearl
-Auction
+# Pits
 
-<img src="https://github.com/ggabmon/SpringBootCAClass/assets/49934875/becb6ffd-3f5b-40b1-ac34-e4d3cb9adfa4"></img>
+## 프로젝트 소개
+
+### 1. 프로젝트명
+Pits
+- Pearl In The Soil : 진흙속의 진주를 찾아낸다는 의미입니다.
+
+### 2. 프로젝트 배경 및 목적
+수많은 음원들이 출시되는 지금과 같은 시대에 새로운 아티스트로서 대기업들이 경쟁하는 시장에
+새로운 아티스트가 도전하기엔 기회가 너무 좁아 인디 시장에도 발을 붙이기가 어려울때
+그러한 아티스트들의 음원에 알맞은 가치를 찾을 수 있게 도와주는 웹 프로젝트 입니다.
+
+### 3. 사용 기술 및 도구
+- 프론트엔드: CSS, javascript, AJAX, ThymeLeaf
+- 백엔드: java, JPA
+- 데이터베이스: MySQL
+- 버전 관리: git
+- 협업 툴 : github
+- 서버 : Apach Tomcat  9.0.76
+- 개발환경: Intelli-J
+
+### 4. 맡은 역할
+- 메인페이지
+  - 무한스크롤을 이용해 리스트를 페이지 이동 없이 출력
+  - <img src="https://github.com/ggabmon/SpringBootCAClass/assets/49934875/becb6ffd-3f5b-40b1-ac34-e4d3cb9adfa4"></img>
+  - DB에서 활성화되어있는 경매중에 경매금액이 가장높은 5개를 가져와 스와이퍼 출력
+  - 위와 동일한 음원이 재생되는 음악플레이어 구현
+
+  
+- DB
+  - 매시간마다 현재시간과 종료시간을 비교하여 마감된 경매는 마감처리함.
